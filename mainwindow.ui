@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>581</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>287</width>
+         <height>189</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>GroupBox</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>276</width>
+          <height>146</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QComboBox" name="combo_test">
+             <item>
+              <property name="text">
+               <string>Marquis</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mecke</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mandelin</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Liebermann</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Froehde</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Robadope</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Simons</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Folin</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Ehrlich</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Hofmann</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Scott</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Kwas galusowy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Ziemmerman</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="button_ok">
+             <property name="text">
+              <string>Zatwierdź</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="button_reset">
+             <property name="text">
+              <string>Resetuj</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>30</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="button_clear">
+             <property name="text">
+              <string>Resetuj bieżący
+kolor</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>5</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="button_color1">
+             <property name="text">
+              <string>Wybierz kolor
+przejsciowy</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>5</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="button_color2">
+             <property name="text">
+              <string>Wybierz kolor
+finalny</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>286</width>
+         <height>189</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>GroupBox</string>
+       </property>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>271</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Nazwa</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Wynik</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Szansa</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>581</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="editDataBase">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>210</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edytuj Bazę</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_color1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>getPixel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_color2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>getPixel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>combo_test</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>getTest(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>51</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>52</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_ok</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>419</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_clear</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>resetColors()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>138</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>resetTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>258</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>editDataBase</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>editDataBase()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>288</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>getPixel()</slot>
+  <slot>getTest(int)</slot>
+  <slot>updateTable()</slot>
+  <slot>resetColors()</slot>
+  <slot>resetTable()</slot>
+  <slot>editDataBase()</slot>
+ </slots>
+</ui>
